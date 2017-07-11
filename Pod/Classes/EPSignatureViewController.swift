@@ -10,8 +10,9 @@ import UIKit
 
     // MARK: - EPSignatureDelegate
 @objc public protocol EPSignatureDelegate {
-    @objc optional    func epSignature(_: EPSignatureViewController, didCancel error : NSError)
-    @objc optional    func epSignature(_: EPSignatureViewController, didSign signatureImage : UIImage, boundingRect: CGRect)
+    @objc optional func epSignature(_: EPSignatureViewController, didCancel error : NSError)
+    @objc optional func epSignature(_: EPSignatureViewController, didSign signatureImage : UIImage, boundingRect: CGRect)
+    func signature(_ controller: EPSignatureViewController, didSign signaturePath: UIBezierPath)
 }
 
 open class EPSignatureViewController: UIViewController {
@@ -107,13 +108,8 @@ open class EPSignatureViewController: UIViewController {
     }
 
     func onTouchDoneButton() {
-        if let signature = signatureView.getSignatureAsImage() {
-            if switchSaveSignature.isOn {
-                let docPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first
-                let filePath = (docPath! as NSString).appendingPathComponent("sig.data")
-                signatureView.saveSignature(filePath)
-            }
-            signatureDelegate?.epSignature!(self, didSign: signature, boundingRect: signatureView.getSignatureBoundsInCanvas())
+        if let signature = signatureView.getSignatureAsPath() {
+            signatureDelegate?.signature(self, didSign: signature)
             dismiss(animated: true, completion: nil)
         } else {
             showAlert("You did not sign", andTitle: "Please draw your signature")
