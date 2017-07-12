@@ -1,9 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "EPSignature"
-  s.version          = "1.0.6"
+  s.version          = "1.0.7"
   s.summary          = "Signature component for iOS in Swift"
   s.description      = <<-DESC
+  s.dependency 'SVColorPicker'
 Features
 1. User can draw the signature either by finger or by apple pencil
 2. Ability to save the signature as default signature
@@ -17,7 +18,7 @@ DESC
   s.homepage         = "https://github.com/ipraba/EPSignature"
   s.license          = 'MIT'
   s.author           = { "Prabaharan" => "mailprabaharan.e@gmail.com" }
-  s.source           = { :git => "https://github.com/ipraba/EPSignature.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/finngaida/EPSignature.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '10.0'
   s.requires_arc = true

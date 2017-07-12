@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import SVColorPicker
 
     // MARK: - EPSignatureDelegate
 @objc public protocol EPSignatureDelegate {
     @objc optional func epSignature(_: EPSignatureViewController, didCancel error : NSError)
     @objc optional func epSignature(_: EPSignatureViewController, didSign signatureImage : UIImage, boundingRect: CGRect)
-    func signature(_ controller: EPSignatureViewController, didSign signaturePath: UIBezierPath)
+    func signature(_ controller: EPSignatureViewController, didSign signaturePath: UIBezierPath, color: UIColor?)
 }
 
 open class EPSignatureViewController: UIViewController {
@@ -34,6 +35,7 @@ open class EPSignatureViewController: UIViewController {
     open weak var signatureDelegate: EPSignatureDelegate?
     open var subtitleText = "Sign Here"
     open var tintColor = UIColor.defaultTintColor()
+    var chosenColor: UIColor?
 
     // MARK: - Life cycle methods
     
@@ -71,6 +73,14 @@ open class EPSignatureViewController: UIViewController {
         
         lblSignatureSubtitle.text = subtitleText
         switchSaveSignature.setOn(false, animated: true)
+
+        let colorSlider = ColorPickerView(frame: CGRect(x: 20, y: self.view.frame.height-35, width: self.view.frame.width-40, height: 15))
+        colorSlider.autoresizingMask = [.flexibleWidth, .flexibleTopMargin]
+        colorSlider.translatesAutoresizingMaskIntoConstraints = true
+        colorSlider.didChangeColor = { color in
+            self.chosenColor = color
+        }
+        self.view.addSubview(colorSlider)
     }
     
     override open func didReceiveMemoryWarning() {
@@ -109,7 +119,7 @@ open class EPSignatureViewController: UIViewController {
 
     func onTouchDoneButton() {
         if let signature = signatureView.getSignatureAsPath() {
-            signatureDelegate?.signature(self, didSign: signature)
+            signatureDelegate?.signature(self, didSign: signature, color: chosenColor)
             dismiss(animated: true, completion: nil)
         } else {
             showAlert("You did not sign", andTitle: "Please draw your signature")
