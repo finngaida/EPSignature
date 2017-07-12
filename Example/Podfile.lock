@@ -1,16 +1,19 @@
 PODS:
-  - EPSignature (1.0.4)
+  - EPSignature (1.0.7)
+  - SVColorPicker (2.0.1)
 
 DEPENDENCIES:
   - EPSignature (from `../`)
+  - SVColorPicker
 
 EXTERNAL SOURCES:
   EPSignature:
     :path: ../
 
 SPEC CHECKSUMS:
-  EPSignature: 478249751bfb0bc53d2aff1ba303f22c40477588
+  EPSignature: 93a931848629003fde7d99e73c538b44b2f279ca
+  SVColorPicker: a19ab1b62ffc6cd446819908432c70f63c511171
 
-PODFILE CHECKSUM: 84aed66b505fdd2542d6a29a19a1d69e08cc5a00
+PODFILE CHECKSUM: c8cd6a6bad0fdb556daffb9ba7f7eb2496d417d6
 
 COCOAPODS: 1.1.1

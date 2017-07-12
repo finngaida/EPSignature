@@ -7,26 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B7F354DEB0463A7CB08F15DA338B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4253D3FAF51AABA4E804036EC8BCDB3D /* Pods-EPSignature_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DA580ED121E674BB649E246F26FC94 /* Pods-EPSignature_Example-dummy.m */; };
+		0F529E7CCCE144F15617F13776D47F5B /* SVColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E44B10E3C56F74D269FEDFCD734E735D /* SVColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4347B507806540CAF006D3C122740549 /* EPSignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE59112541DE1900FAA8215DB0744A7 /* EPSignatureViewController.xib */; };
+		46A208C7623483C70CAFFCC1ED34BD23 /* Pods-EPSignature_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DA580ED121E674BB649E246F26FC94 /* Pods-EPSignature_Example-dummy.m */; };
 		5A90A6FF42D26BE500EE4C1DD74FF443 /* EPSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4F0E6E795A4128B1F8328BF85A56A2 /* EPSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63DCF8967BB8CC23DFF0D17F0220D5A3 /* EPSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA83BB0E0FD16C7BE3A17C2B9FC57ED /* EPSignature-dummy.m */; };
 		76CFD32990D6A290DC783360CB34A850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		87D4634034570544E86E297E305F9E60 /* EPSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F6811C2EFB159B27A8CCB43D07BA5 /* EPSignatureView.swift */; };
+		88E6744EEDD3DE18497D73321E9AB907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8BD58CE55939F3D7E33E9D08D240AEB1 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CE18DB83DDEBE249F0BD360EE5A2B0 /* ColorPickerView.swift */; };
+		920D71543E719741B4FC9A8360075992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		962EA8A9096D6561EA990234668AB5B0 /* EPSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916BD3F5DDAF53E65FE9D2D078345962 /* EPSignatureViewController.swift */; };
-		9F2D653CA3056F23666C0642C68FFB92 /* Pods-EPSignature_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B25758FF4866E637EFAD732B1407433 /* Pods-EPSignature_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC5CEA9501890CBEDA7B091A0EFD4EE /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F6B569D457E5A83E21CC5B6C6BCD6 /* EPExtensions.swift */; };
+		C129F25653DEFF509AF1328C3CD5C0FE /* SVColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED08667C39FE8AFE418199114A970AF5 /* SVColorPicker-dummy.m */; };
+		C854F72FAE6E85F3AB85E49D042FAFBD /* Pods-EPSignature_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B25758FF4866E637EFAD732B1407433 /* Pods-EPSignature_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D51C92E62D1AE143F8502301658366A3 /* EPSignatureViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1CE59112541DE1900FAA8215DB0744A7 /* EPSignatureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F4B95880CFC1C39781D553170BACAD22 /* PBXContainerItemProxy */ = {
+		4DDEE8E71983C30BD745EB657A58C6C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19D6D9705482D1B9CB1C3F1D8CC28599;
 			remoteInfo = EPSignature;
+		};
+		8F3C81FB71C41D94406F2FED93C4B8EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD7398B86151012A7CE0631BA445E941;
+			remoteInfo = SVColorPicker;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,13 +47,16 @@
 		2B25758FF4866E637EFAD732B1407433 /* Pods-EPSignature_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EPSignature_Example-umbrella.h"; sourceTree = "<group>"; };
 		2B4F0E6E795A4128B1F8328BF85A56A2 /* EPSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPSignature-umbrella.h"; sourceTree = "<group>"; };
 		331099F6112B0BE6BA669FE6EAB55E05 /* Pods-EPSignature_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EPSignature_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4307A4952876729540173D73ECB57D24 /* Pods_EPSignature_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EPSignature_Example.framework; path = "Pods-EPSignature_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A25D8C06FB4B08F1D748D96D1045EC /* Pods-EPSignature_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EPSignature_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4DA83BB0E0FD16C7BE3A17C2B9FC57ED /* EPSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPSignature-dummy.m"; sourceTree = "<group>"; };
 		578F6811C2EFB159B27A8CCB43D07BA5 /* EPSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EPSignatureView.swift; sourceTree = "<group>"; };
 		59BDF2ADA26B76E8C0FFA256AC4107CD /* EPSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EPSignature.modulemap; sourceTree = "<group>"; };
+		5CC73C9B13397A39B86872DD685E7B04 /* SVColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVColorPicker.framework; path = SVColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		769FFE6DEBC8283CE19D8ACBCF673631 /* Pods-EPSignature_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EPSignature_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BCF44980CD3B29DB4C6ECA1B1E1E299 /* Pods_EPSignature_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EPSignature_Example.framework; path = "Pods-EPSignature_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF11AD42EAA75A8DE43004A4D9B4053 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CE18DB83DDEBE249F0BD360EE5A2B0 /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = SVColorPicker/Classes/ColorPickerView.swift; sourceTree = "<group>"; };
+		8581B8292A1E523C965C2CCFA525E4A7 /* EPSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPSignature.framework; path = EPSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		916BD3F5DDAF53E65FE9D2D078345962 /* EPSignatureViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EPSignatureViewController.swift; sourceTree = "<group>"; };
 		93A376AD4576EB75387978B13C213B1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -50,19 +64,24 @@
 		97DA580ED121E674BB649E246F26FC94 /* Pods-EPSignature_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EPSignature_Example-dummy.m"; sourceTree = "<group>"; };
 		A89E015525E09B09DC2308E526122A56 /* Pods-EPSignature_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EPSignature_Example-resources.sh"; sourceTree = "<group>"; };
 		A8F093E8F28FC84A73AC38F62E55A932 /* Pods-EPSignature_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EPSignature_Example.modulemap"; sourceTree = "<group>"; };
+		AA2926973B855951197830F3F4D7659F /* SVColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVColorPicker.xcconfig; sourceTree = "<group>"; };
 		ABF4C8DBAB4B2F4B3B0C755B7A3DF847 /* EPSignature.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPSignature.xcconfig; sourceTree = "<group>"; };
-		C7849ED2DDF51BF360E96EED2D98FBF8 /* EPSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPSignature.framework; path = EPSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE59512544783539793660B12ED61F68 /* Pods-EPSignature_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EPSignature_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D125B4065662510F86AD3E541861F98D /* SVColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		D9FE9D632C3064706037C91F3098B2A4 /* SVColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVColorPicker.modulemap; sourceTree = "<group>"; };
+		DEE2CAE5BC0B227FDEC9F96474BB5464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E09CC16EEE1D0DD89A9E8BD2629D12A3 /* Pods-EPSignature_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EPSignature_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E44B10E3C56F74D269FEDFCD734E735D /* SVColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		ED08667C39FE8AFE418199114A970AF5 /* SVColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVColorPicker-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A2F337BCF16E8F1BE0EDAAFD2D93CA1 /* Frameworks */ = {
+		6972FFBAA5476DD840BF092E90AA9CD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B7F354DEB0463A7CB08F15DA338B31 /* Foundation.framework in Frameworks */,
+				88E6744EEDD3DE18497D73321E9AB907 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,15 +93,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C8EA64738F773C7EE61295CE542ABAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920D71543E719741B4FC9A8360075992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E26AC9A25F50931FB29F7919273399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAA0C1FA90665BB6AE1D29A4054F78 /* SVColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1A5DA5E83A053D305F6B56125C0C87C7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				C079C302B7D7D8B635ACF9215EA76C67 /* Pods-EPSignature_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22AD41AB94E61E2FE26EC7A1B1E8264A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2CAE5BC0B227FDEC9F96474BB5464 /* Info.plist */,
+				D9FE9D632C3064706037C91F3098B2A4 /* SVColorPicker.modulemap */,
+				AA2926973B855951197830F3F4D7659F /* SVColorPicker.xcconfig */,
+				ED08667C39FE8AFE418199114A970AF5 /* SVColorPicker-dummy.m */,
+				D125B4065662510F86AD3E541861F98D /* SVColorPicker-prefix.pch */,
+				E44B10E3C56F74D269FEDFCD734E735D /* SVColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVColorPicker";
 			sourceTree = "<group>";
 		};
 		2F24C16F5B2B43C44694920C803E6BB6 /* EPSignature */ = {
@@ -113,11 +162,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5C51FDA38257C5D3E464F2F273CD5862 /* Products */ = {
+		63D53834024DC2CCF2F98BF68D70F217 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7849ED2DDF51BF360E96EED2D98FBF8 /* EPSignature.framework */,
-				7BCF44980CD3B29DB4C6ECA1B1E1E299 /* Pods_EPSignature_Example.framework */,
+				8581B8292A1E523C965C2CCFA525E4A7 /* EPSignature.framework */,
+				4307A4952876729540173D73ECB57D24 /* Pods_EPSignature_Example.framework */,
+				5CC73C9B13397A39B86872DD685E7B04 /* SVColorPicker.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,7 +214,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7271EB15942A02D33AC42B1EF1529C55 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5C51FDA38257C5D3E464F2F273CD5862 /* Products */,
+				14E26AC9A25F50931FB29F7919273399 /* Pods */,
+				63D53834024DC2CCF2F98BF68D70F217 /* Products */,
 				1A5DA5E83A053D305F6B56125C0C87C7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -184,6 +235,16 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEAA0C1FA90665BB6AE1D29A4054F78 /* SVColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				82CE18DB83DDEBE249F0BD360EE5A2B0 /* ColorPickerView.swift */,
+				22AD41AB94E61E2FE26EC7A1B1E8264A /* Support Files */,
+			);
+			name = SVColorPicker;
+			path = SVColorPicker;
 			sourceTree = "<group>";
 		};
 		C079C302B7D7D8B635ACF9215EA76C67 /* Pods-EPSignature_Example */ = {
@@ -229,35 +290,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9162E2184306FC337A56A729556334D5 /* Headers */ = {
+		98B47EF0560FBEF22AB63779243D56C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2D653CA3056F23666C0642C68FFB92 /* Pods-EPSignature_Example-umbrella.h in Headers */,
+				C854F72FAE6E85F3AB85E49D042FAFBD /* Pods-EPSignature_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC31A98ED1DD568CCE6C45DC14872801 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F529E7CCCE144F15617F13776D47F5B /* SVColorPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AFAF0F4BA504F0961A5A05728ED55FF /* Pods-EPSignature_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E7AE56748EC44337B589D7ACA009A877 /* Build configuration list for PBXNativeTarget "Pods-EPSignature_Example" */;
-			buildPhases = (
-				15EC14753365407CC955D95D743DC20D /* Sources */,
-				5A2F337BCF16E8F1BE0EDAAFD2D93CA1 /* Frameworks */,
-				9162E2184306FC337A56A729556334D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B7F7B6D179FEAA302B066F8523A5B58 /* PBXTargetDependency */,
-			);
-			name = "Pods-EPSignature_Example";
-			productName = "Pods-EPSignature_Example";
-			productReference = 7BCF44980CD3B29DB4C6ECA1B1E1E299 /* Pods_EPSignature_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		19D6D9705482D1B9CB1C3F1D8CC28599 /* EPSignature */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86A0C7D04725A1BF12D22F971E9C366A /* Build configuration list for PBXNativeTarget "EPSignature" */;
@@ -273,7 +324,43 @@
 			);
 			name = EPSignature;
 			productName = EPSignature;
-			productReference = C7849ED2DDF51BF360E96EED2D98FBF8 /* EPSignature.framework */;
+			productReference = 8581B8292A1E523C965C2CCFA525E4A7 /* EPSignature.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD7398B86151012A7CE0631BA445E941 /* SVColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E5ED5F2A6F9894B9F7E4A97A5C2941 /* Build configuration list for PBXNativeTarget "SVColorPicker" */;
+			buildPhases = (
+				D4318AD7151770F8758C8D21A119C76A /* Sources */,
+				6972FFBAA5476DD840BF092E90AA9CD8 /* Frameworks */,
+				CC31A98ED1DD568CCE6C45DC14872801 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVColorPicker;
+			productName = SVColorPicker;
+			productReference = 5CC73C9B13397A39B86872DD685E7B04 /* SVColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E24FA5D55E8E7595B4500E7AE06C70E0 /* Pods-EPSignature_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E240A28B5061382725DC682F8AA84A91 /* Build configuration list for PBXNativeTarget "Pods-EPSignature_Example" */;
+			buildPhases = (
+				364530DDA1CE471EBEE7A5A2962B14E2 /* Sources */,
+				C8EA64738F773C7EE61295CE542ABAA0 /* Frameworks */,
+				98B47EF0560FBEF22AB63779243D56C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143FDBF8BBF78C172186A2F5BB0028E2 /* PBXTargetDependency */,
+				3FFB6164568E6C62709A6CEC394DAC42 /* PBXTargetDependency */,
+			);
+			name = "Pods-EPSignature_Example";
+			productName = "Pods-EPSignature_Example";
+			productReference = 4307A4952876729540173D73ECB57D24 /* Pods_EPSignature_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -293,12 +380,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5C51FDA38257C5D3E464F2F273CD5862 /* Products */;
+			productRefGroup = 63D53834024DC2CCF2F98BF68D70F217 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				19D6D9705482D1B9CB1C3F1D8CC28599 /* EPSignature */,
-				0AFAF0F4BA504F0961A5A05728ED55FF /* Pods-EPSignature_Example */,
+				E24FA5D55E8E7595B4500E7AE06C70E0 /* Pods-EPSignature_Example */,
+				BD7398B86151012A7CE0631BA445E941 /* SVColorPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -315,11 +403,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15EC14753365407CC955D95D743DC20D /* Sources */ = {
+		364530DDA1CE471EBEE7A5A2962B14E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4253D3FAF51AABA4E804036EC8BCDB3D /* Pods-EPSignature_Example-dummy.m in Sources */,
+				46A208C7623483C70CAFFCC1ED34BD23 /* Pods-EPSignature_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,14 +423,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4318AD7151770F8758C8D21A119C76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD58CE55939F3D7E33E9D08D240AEB1 /* ColorPickerView.swift in Sources */,
+				C129F25653DEFF509AF1328C3CD5C0FE /* SVColorPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B7F7B6D179FEAA302B066F8523A5B58 /* PBXTargetDependency */ = {
+		143FDBF8BBF78C172186A2F5BB0028E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EPSignature;
 			target = 19D6D9705482D1B9CB1C3F1D8CC28599 /* EPSignature */;
-			targetProxy = F4B95880CFC1C39781D553170BACAD22 /* PBXContainerItemProxy */;
+			targetProxy = 4DDEE8E71983C30BD745EB657A58C6C3 /* PBXContainerItemProxy */;
+		};
+		3FFB6164568E6C62709A6CEC394DAC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVColorPicker;
+			target = BD7398B86151012A7CE0631BA445E941 /* SVColorPicker */;
+			targetProxy = 8F3C81FB71C41D94406F2FED93C4B8EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -391,6 +494,39 @@
 			};
 			name = Debug;
 		};
+		25564F752D249DF1C3EC0F302F749F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2926973B855951197830F3F4D7659F /* SVColorPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVColorPicker/SVColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVColorPicker/SVColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5A394A0A0763587DB0EB6B262FEFF3DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABF4C8DBAB4B2F4B3B0C755B7A3DF847 /* EPSignature.xcconfig */;
@@ -424,7 +560,42 @@
 			};
 			name = Debug;
 		};
-		817C34AAE9A1EA9F670DD3690F821518 /* Debug */ = {
+		8F2548C398A7EA48A4E1955F2B4AB2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE59512544783539793660B12ED61F68 /* Pods-EPSignature_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EPSignature_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EPSignature_Example/Pods-EPSignature_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EPSignature_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9066BE90CB087D822E90D93795CCB321 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 331099F6112B0BE6BA669FE6EAB55E05 /* Pods-EPSignature_Example.debug.xcconfig */;
 			buildSettings = {
@@ -492,9 +663,9 @@
 			};
 			name = Release;
 		};
-		D3A8EDAACCB8947FEEB73D451FEA0FAF /* Release */ = {
+		D87720855C8339A8C84B121F78F69BDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE59512544783539793660B12ED61F68 /* Pods-EPSignature_Example.release.xcconfig */;
+			baseConfigurationReference = AA2926973B855951197830F3F4D7659F /* SVColorPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -507,20 +678,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EPSignature_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SVColorPicker/SVColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVColorPicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EPSignature_Example/Pods-EPSignature_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SVColorPicker/SVColorPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EPSignature_Example;
+				PRODUCT_NAME = SVColorPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -588,11 +756,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7AE56748EC44337B589D7ACA009A877 /* Build configuration list for PBXNativeTarget "Pods-EPSignature_Example" */ = {
+		99E5ED5F2A6F9894B9F7E4A97A5C2941 /* Build configuration list for PBXNativeTarget "SVColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				817C34AAE9A1EA9F670DD3690F821518 /* Debug */,
-				D3A8EDAACCB8947FEEB73D451FEA0FAF /* Release */,
+				25564F752D249DF1C3EC0F302F749F02 /* Debug */,
+				D87720855C8339A8C84B121F78F69BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E240A28B5061382725DC682F8AA84A91 /* Build configuration list for PBXNativeTarget "Pods-EPSignature_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9066BE90CB087D822E90D93795CCB321 /* Debug */,
+				8F2548C398A7EA48A4E1955F2B4AB2E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

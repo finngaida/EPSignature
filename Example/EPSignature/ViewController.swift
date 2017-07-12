@@ -34,5 +34,9 @@ class ViewController: UIViewController, EPSignatureDelegate {
         imgHeightConstraint.constant = boundingRect.size.height
     }
 
+    func signature(_ controller: EPSignatureViewController, didSign signaturePath: UIBezierPath) {
+        
+    }
+
 }
 
