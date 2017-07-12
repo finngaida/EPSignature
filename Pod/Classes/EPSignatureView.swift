@@ -136,7 +136,6 @@ open class EPSignatureView: UIView {
     }
 
     open func getSignatureAsPath() -> UIBezierPath? {
-        guard bezierCounter > 0 else { return nil }
         return bezierPath
     }
     
